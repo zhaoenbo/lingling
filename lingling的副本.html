@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min的副本.css">
+    <link rel="stylesheet" href="css/swiper.min的副本.css">
+    <link rel="stylesheet" href="linflinf.css">
+</head>
+<body>
+    <div class="ling">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/2A3B7F81B2B1B91A2DE9DB4CF8518EDE.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/33B06B48AE14BD6922FC100F852B207A.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/48957BB57E3EC5CF5500538F92699E06.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/5CA9002D2DA75C2F7F20087CAAA04364.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/9E0CDA64D4C6167DE3E159468CF9629A.jpg" alt=""></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+            <!-- 如果需要滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </div>
+    
+    <script src="js/swiper.min.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+        
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+</body>
+</html>
